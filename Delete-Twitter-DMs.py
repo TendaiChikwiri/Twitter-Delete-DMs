@@ -20,7 +20,7 @@ try:
     print("Authentication OK")
 except:
     print("Error during authentication")
-# you need to download your twitter archive and use the "direct-messages.js" file, it countains all of yur direct messages
+# you need to download your twitter archive and use the "direct-messages.js" file, it countains all of your direct messages
 with open() as dataFile:
     data = dataFile.read()
     dataDict = json.loads(data)
